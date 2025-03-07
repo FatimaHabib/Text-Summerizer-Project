@@ -1,6 +1,6 @@
 transformers
 transformers[sentencepiece]
-datasets
+datasets==1.18.0 
 sacrebleu
 rouge_score
 py7zr
