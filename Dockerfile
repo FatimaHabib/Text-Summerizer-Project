@@ -5,7 +5,8 @@ RUN apt update -y && apt install -y \
     gcc \
     g++ \
     python3-dev \
-    libzstd-devWORKDIR /app
+    libzstd-dev 
+WORKDIR /app
 
 COPY . /app/
 
